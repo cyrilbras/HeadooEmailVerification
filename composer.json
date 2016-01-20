@@ -1,0 +1,29 @@
+{
+    "name": "misteio/cloudinary-bundle",
+    "type": "symfony-bundle",
+    "description": "Email Verification",
+    "homepage": "https://github.com/cyrilbras/HeadooEmailVerification",
+    "keywords": ["Mail", "Validator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cyril BRAS",
+            "homepage": "http://headoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/framework-bundle": "2.7.*",
+        "cloudinary/cloudinary_php": "1.0.11",
+		"twig/extensions": "~1.1",
+		"symfony/console": "~2.7",
+		"symfony/finder": "~2.7",
+		"satooshi/php-coveralls": "dev-master"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "4.7.*"
+	},
+    "autoload": {
+        "psr-4": {"Misteio\\EmailVerificationBundle\\": ""}
+    }
+}

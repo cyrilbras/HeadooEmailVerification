@@ -1,0 +1,4 @@
+services:
+    headoo_email_verification.verification:
+        class: Headoo\EmailVerificationBundle\Verification\EmailVerification
+        arguments: ["%apiKey%"]

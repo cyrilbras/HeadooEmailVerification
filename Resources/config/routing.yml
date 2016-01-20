@@ -1,0 +1,3 @@
+headoo_email_verification_homepage:
+    path:     /
+    defaults: { _controller: HeadooEmailVerificationBundle:Default:index }

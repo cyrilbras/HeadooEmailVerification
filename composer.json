@@ -1,5 +1,5 @@
 {
-    "name": "misteio/cloudinary-bundle",
+    "name": "cyrilbras/email_verification_bundle",
     "type": "symfony-bundle",
     "description": "Email Verification",
     "homepage": "https://github.com/cyrilbras/HeadooEmailVerification",
@@ -24,6 +24,6 @@
 		"phpunit/phpunit": "4.7.*"
 	},
     "autoload": {
-        "psr-4": {"Misteio\\EmailVerificationBundle\\": ""}
+        "psr-4": {"cyrilbras\\EmailVerificationBundle\\": ""}
     }
 }
